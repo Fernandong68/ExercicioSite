@@ -38,6 +38,13 @@
 
  }
 
+
+a.externo::after{
+
+  content: '\00A0\1F517';
+
+
+}  
 main p{
 
    margin: 15px 0px;
@@ -98,37 +105,57 @@ body{
 
 main h1 {
 
-color: var(--cor5) ;
-font-family: var(--fonte-android);
+  color: var(--cor5) ;
+  font-family: var(--fonte-android);
 
 }
 
 main h2{
 
-font-family: var(--fonte-android);
-color: var(--cor4);
-font-size: 1.3em;
-background-image: linear-gradient(to right, var(--cor1 ), transparent);
-text-indent: 8px;
+  font-family: var(--fonte-android);
+  color: var(--cor4);
+  font-size: 1.3em;
+  background-image: linear-gradient(to right, var(--cor1 ), transparent);
+  text-indent: 8px;
 
 
 }
 
 main img{
 
-width: 100%;
+  width: 100%;
 
 }
 main img.pequena{
-max-width: 350px;
-display: block;
-margin: auto;
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
 
-footer{
+aside {
 
-background-color: var(--cor5);
-color: white;
+  background-color: var(--cor1);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.267);
+
+}
+
+aside > ul {
+
+  list-style-type: '\2714\00A0\00A0';
+  list-style-position: inside;
+  columns: 2;
+
+}
+aside h3{
+
+  background-color: var(--cor4);
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0px -10px;
+  border-radius: 10px 10px 0px 0px;
+
 
 
 }
